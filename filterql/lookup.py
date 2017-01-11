@@ -6,10 +6,11 @@ from .utils import ENCODERS, type_decoder, TypeEncoder
 from .validators import VALIDATORS
 
 
-FIELD_KEY = 'field'
-LOOKUP_KEY = 'lookup'
-VALUE_KEY = 'value'
-TYPE_KEY = 'type'
+KEY_PREFIX = '_'
+FIELD_KEY = '%sfield' % KEY_PREFIX
+LOOKUP_KEY = '%slookup' % KEY_PREFIX
+VALUE_KEY = '%svalue' % KEY_PREFIX
+TYPE_KEY = '%stype' % KEY_PREFIX
 
 
 class LookupNode(object):
@@ -17,9 +18,9 @@ class LookupNode(object):
     Node used for lookups. Has filters that can be either a dict with
     the given filter or another lookup node that contains more filters.
     """
-    AND = 'and'
-    OR = 'or'
-    NOT = 'not'
+    AND = '%sand' % KEY_PREFIX
+    OR = '%sor' % KEY_PREFIX
+    NOT = '%snot' % KEY_PREFIX
     default = AND
 
     def __init__(self, filters=None, connector=None, negated=False):
