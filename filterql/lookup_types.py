@@ -14,7 +14,7 @@ ENDSWITH = 'endswith'
 ICONTAINS = 'icontains'
 ISTARTSWITH = 'istartswith'
 IENDSWITH = 'iendswith'
-IEXACT = 'iaxact'
+IEXACT = 'iexact'
 
 # Boundary types.
 IN = 'in'
