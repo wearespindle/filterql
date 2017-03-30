@@ -1,9 +1,7 @@
 from pytest import raises
 
+from filterql import DAY, HOUR, ISNULL, MINUTE, MONTH, SECOND, WEEK
 from filterql.exceptions import InvalidValueException
-from filterql.lookup_types import (
-    DAY, HOUR, ISNULL, MINUTE, MONTH, SECOND, WEEK,
-)
 from filterql.validators import VALIDATORS
 
 

@@ -1,5 +1,5 @@
-from .exceptions import InvalidValueException
 from .lookup_types import DAY, HOUR, ISNULL, MINUTE, MONTH, SECOND, WEEK
+from .exceptions import InvalidValueException
 
 
 def integer_validator(value):

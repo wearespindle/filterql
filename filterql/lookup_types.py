@@ -30,6 +30,7 @@ EXACT = 'exact'
 
 LOOKUP_TYPES = [
     YEAR,
+    WEEK,
     MONTH,
     DAY,
     HOUR,

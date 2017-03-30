@@ -1,7 +1,6 @@
 from django.db.models import Q
 
-from filterql.lookup import L
-from filterql.lookup_types import ISNULL
+from filterql import ISNULL, L
 from filterql.serializers import DjangoSerializer
 
 

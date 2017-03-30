@@ -4,8 +4,9 @@ from pytest import raises
 import simplejson as json
 
 from filterql.exceptions import InvalidFormat, InvalidValueException, UnsupportedLookupException
-from filterql.lookup import FIELD_KEY, L, LookupNode, LOOKUP_KEY, TYPE_KEY, VALUE_KEY
-from filterql.lookup_types import ISNULL, LOOKUP_TYPES
+from filterql import ISNULL, L
+from filterql.lookup import FIELD_KEY, LookupNode, LOOKUP_KEY, TYPE_KEY, VALUE_KEY
+from filterql.lookup_types import LOOKUP_TYPES
 
 
 def test_invalid_lookup_type():

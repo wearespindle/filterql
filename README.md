@@ -27,8 +27,7 @@ the near future.
 
 ```python
 
-from filterql.lookup import L
-from filterql.lookup_types import STARTSWITH
+from filterql import L, STARTSWITH
 
 # Filter query for name to start with `spindle` or `devhouse`
 lookup = L('name', 'spindle', lookup=STARTSWITH) | L('name', 'devhouse', lookup=STARTSWITH)
