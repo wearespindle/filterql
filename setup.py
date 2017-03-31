@@ -1,6 +1,12 @@
 from setuptools import find_packages, setup
 
-import filterql
+
+__title__ = 'filterql'
+__author__ = 'Devhouse Spindle'
+__email__ = 'opensource@wearespindle.com'
+__version__ = '0.1'
+__copyright__ = 'Copyright (C) 2016 Devhouse Spindle'
+__license__ = 'MIT License'
 
 
 try:
@@ -22,14 +28,14 @@ tests_require = [
 ]
 
 setup(
-    name=filterql.__title__,
-    version=filterql.__version__,
+    name=__title__,
+    version=__version__,
     description='Filter queries to json and back',
     long_description=long_description,
     url='https://github.com/wearespindle/filterql',
-    author=filterql.__author__,
-    author_email=filterql.__email__,
-    license=filterql.__license__,
+    author=__author__,
+    author_email=__email__,
+    license=__license__,
     install_requires=install_requires,
     tests_require=tests_require,
     extras_require={
