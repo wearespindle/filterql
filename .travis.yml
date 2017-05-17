@@ -1,14 +1,9 @@
 sudo: false
 language: python
-
 python:
   - '2.7'
   - '3.3'
   - '3.4'
   - '3.5'
-
-install:
-  - pip install -e .[test]
-
-script:
-  - py.test --cov=filterql --cov-fail-under=100 --cov-report term-missing --flake8 -vvv
+install: pip install tox-travis
+script: tox
