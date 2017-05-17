@@ -1,3 +1,5 @@
 # Changelog
 
-{insert releases + changes}
+## v0.1
+
+ * Initial release
