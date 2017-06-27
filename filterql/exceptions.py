@@ -18,4 +18,4 @@ class UnsupportedLookupException(Exception):
     def __init__(self, lookup):
         message = '`%s` is not a supported lookup! Supported lookups are: %s' % (lookup, LOOKUP_TYPES)
 
-        super(type(self), self).__init__(message)
+        super(UnsupportedLookupException, self).__init__(message)
