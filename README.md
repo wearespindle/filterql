@@ -81,4 +81,4 @@ We will be happy to answer your other questions at opensource@wearespindle.com
 
 ## Added something for gitlab
 
-Here is some text for you to review on gitlab.
+Here is some text for you to review on gitlab. Discussion.
