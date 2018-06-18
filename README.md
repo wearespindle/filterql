@@ -78,3 +78,7 @@ The changelog can be found in the [CHANGELOG.md](https://github.com/wearespindle
 If you want to report an issue see the [CONTRIBUTING.md](https://github.com/wearespindle/filterql/blob/develop/CONTRIBUTING.md) file for more info.
 
 We will be happy to answer your other questions at opensource@wearespindle.com
+
+## Added something for gitlab
+
+Here is some text for you to review on gitlab.
